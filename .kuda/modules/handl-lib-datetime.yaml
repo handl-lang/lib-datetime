@@ -1,0 +1,21 @@
+name: handl-lib-datetime
+path: Cargo.toml
+purpose: 'datetime: Handl stdlib port (ADR-0128 split).'
+api:
+- name: handl-lib-datetime
+  kind: module
+  file: Cargo.toml
+  line: 1
+  module: handl-lib-datetime
+deps: []
+notes: ''
+verify:
+- Cargo.toml
+provenance:
+  files:
+  - Cargo.toml
+  hashes:
+  - 9a298543b79d5d7fffb66928278833c917ac5a5b
+  commit_sha: 9b3738c7751c687650e3d6aa4f6b9f03241e05cc
+  generated_at: '1792281211'
+  generator: kuda-template/0.1.0

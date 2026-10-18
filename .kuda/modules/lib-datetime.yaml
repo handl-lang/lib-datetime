@@ -1,0 +1,21 @@
+name: lib-datetime
+path: src/lib.rs
+purpose: lib-datetime
+api:
+- name: DATETIME_HNL
+  kind: const
+  file: src/lib.rs
+  line: 3
+  module: lib-datetime
+deps: []
+notes: ''
+verify:
+- src/lib.rs
+provenance:
+  files:
+  - src/lib.rs
+  hashes:
+  - 34ec54ea630a94182dc27899a0c77512848b4a28
+  commit_sha: 9b3738c7751c687650e3d6aa4f6b9f03241e05cc
+  generated_at: '1792281211'
+  generator: kuda-template/0.1.0

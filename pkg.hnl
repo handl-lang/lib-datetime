@@ -1,1 +1,8 @@
-{ modules: ["datetime"] }
+{
+  modules: ["datetime"],
+  name: "datetime",
+  description: "Date and time — Handl stdlib port (pure handl).",
+  license: "MIT",
+  keywords: ["datetime", "time", "stdlib", "handl"],
+  homepage: "https://github.com/handl-lang/lib-datetime",
+}

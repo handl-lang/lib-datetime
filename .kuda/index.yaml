@@ -1,19 +1,14 @@
 name: lib-datetime
 root: /home/luis/GitHub/handl-lang/lib-datetime
-purpose: ''
-modules:
-- handl-lib-datetime
-- lib-datetime
-commands:
-- cargo check
-- cargo test --workspace
+purpose: '`datetime` — Handl stdlib port (pure handl).'
+modules: []
+commands: []
+tree_digest: da39a3ee5e6b4b0d3255bfef95601890afd80709
 provenance:
   files:
-  - Cargo.toml
-  - src/lib.rs
+  - README.md
   hashes:
-  - 9a298543b79d5d7fffb66928278833c917ac5a5b
-  - 34ec54ea630a94182dc27899a0c77512848b4a28
-  commit_sha: 9b3738c7751c687650e3d6aa4f6b9f03241e05cc
-  generated_at: '1792281211'
+  - 3f0f92ea3f8aa1a3eda585c7587285f1f5b8cafd
+  commit_sha: 697b1ce0a76cfc17053c00055438bf8fd27222d0
+  generated_at: '1795484421'
   generator: kuda/0.1.0

@@ -1,3 +1,28 @@
+# lib-datetime
+
+`datetime` — date and time (Handl stdlib port, pure handl).
+
+## Layout
+
+| path | role |
+| --- | --- |
+| `src/index.hnl` | the library entry |
+| `src/helpers.hnl` | internal helpers |
+| `pkg.hnl` | manifest — `modules: ["datetime"]` |
+| `scripts/hnl-gate.sh` | `.hnl` gate |
+| `workflows/gate.yaml` | CI — shared `handl-gates` campaign |
+
+## Contract
+
+- Pure `.hnl`, no Rust crate; vendored by consumers via
+  `handl-pkg-vendor`.
+
+## Verification
+
+```bash
+HNL=../host-cli/target/debug/hnl scripts/hnl-gate.sh
+```
+
 <!-- myco:agent-awareness -->
 
 ## Agent awareness

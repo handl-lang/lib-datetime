@@ -105,8 +105,8 @@ do {
     p := H.parse_stamp(s)
     d := H.days_in_sec(p.sec)
     c := H.civil_from_days(d)
-    first := H.days_from_civil(c.y, 1, 1)
-    adjust := math.floor_div(6 - H.weekday_mon1(first), 7)
+    ystart := H.days_from_civil(c.y, 1, 1)
+    adjust := math.floor_div(6 - H.weekday_mon1(ystart), 7)
     mon := H.days_from_civil(c.y, 1, adjust + 4)
     if d < mon { 1 } else { math.floor_div(d - mon, 7) + 1 }
   }
